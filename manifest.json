@@ -1,5 +1,12 @@
 {
   "manifest_version": 2,
   "name": "stayFocused",
-  "version": "0.1"
+  "version": "0.1",
+  "description": "A little help to stay focused on your dreams.",
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "js": ["./main.js"]
+    }
+  ]
 }
