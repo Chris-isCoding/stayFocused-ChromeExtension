@@ -3,6 +3,10 @@
   "name": "stayFocused",
   "version": "0.1",
   "description": "A little help to stay focused on your dreams.",
+  "icons": {
+    "16": "icon16.png",
+    "32": "icon32.png",
+    "192": "icon192.png" },
   "content_scripts": [
     {
       "matches": ["https://www.youtube.com/*"],
